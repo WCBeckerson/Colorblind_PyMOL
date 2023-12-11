@@ -1,7 +1,7 @@
 # Colorblind palette for PyMOL
-#The code for adapting models to a colorblind-friendly palette 
+The code for adapting models to a colorblind-friendly palette 
 
-#The following code, adapted from code produced by KP @MolecularMemory on YouTube, can be plugged into the PyMOL terminal to create a colorblind-friendly model using the palette recommended by Bang Wong (2011) (https://doi.org/10.1038/nmeth.1618).
+The following code, adapted from code produced by KP @MolecularMemory on YouTube, can be plugged into the PyMOL terminal to create a colorblind-friendly model using the palette recommended by Bang Wong (2011) (https://doi.org/10.1038/nmeth.1618).
 
         ## Colorblind-friendly Code
         bg_color white
@@ -21,6 +21,7 @@
         set ray_shadows, 0
         set ray_trance_fog, 1
 
-        ##To show the PAE scores on you model, you can use these colors with the 'spectrum b' command:
+To show the PAE scores on you model, you can use these colors with the 'spectrum b' command:
 
-  spectrum b, WongOrange WongSkyBlue
+        ##PAE overlay with colorblind-friendly palette
+        spectrum b, WongOrange WongSkyBlue
