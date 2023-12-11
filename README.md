@@ -20,6 +20,16 @@
   set ray_shadows, 0
   set ray_trance_fog, 1
 
-#To show the PAE scores on you model, you can use these colors with the 'spectrum b' command:
+        ##To show the PAE scores on you model, you can use these colors with the 'spectrum b' command:
 
   spectrum b, WongOrange WongSkyBlue
+
+        ##Right (r), Left (l), and Middle (m) circle colors
+      r_col_upreg = "#7FD7F7"		Top “upregulated” region of the right circle
+      r_col_downreg = "#528AA1"	Bottom “downregulated” region of the right circle
+
+      l_col_upreg = "#FBEF49"		Top “upregulated” region of the left circle
+      l_col_downreg = "#EAA407"	Bottom “downregulated” region of the left circle
+
+      m_col_upreg = "#9353AF"	Top “upregulated” regions of the center circle
+      m_col_downreg = "#501b6b"	Bottom “downregulated” region of the center circle
