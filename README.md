@@ -1,7 +1,7 @@
 # Colorblind palette for PyMOL
 #The code for adapting models to a colorblind-friendly palette 
 
-      ##The following code, adapted from code produced by KP @MolecularMemory on YouTube, can be plugged into the PyMOL terminal to create a colorblind-friendly model using the palette recommended by Bang Wong (2011) (https://doi.org/10.1038/nmeth.1618).
+##The following code, adapted from code produced by KP @MolecularMemory on YouTube, can be plugged into the PyMOL terminal to create a colorblind-friendly model using the palette recommended by Bang Wong (2011) (https://doi.org/10.1038/nmeth.1618).
 
   bg_color white
   set antialias=1
